@@ -365,3 +365,22 @@ scrollbar-thumb{
     border: 2px solid #d8d8d8;
 
 }
+
+.skill-card,
+.project-card {
+    background: white;
+    border-radius: 25px;
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,0.08);
+
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover,
+.project-card:hover {
+    transform: translateY(-10px);
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,0.15);
+}
