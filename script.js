@@ -1,7 +1,7 @@
 const taskflowImages = [
-    "Images/Taskflow pic (1).png",
-    "Images/Taskflow pic (2).png",
-    "Images/Taskflow pic (3).png"
+    "Images/taskflow-1.png",
+    "Images/taskflow-2.png",
+    "Images/taskflow-3.png"
 ];
 
 
@@ -21,11 +21,11 @@ setInterval(() => {
 }, 3000);
 
 const hangmanImages = [
-    "Images/hangman1 (1).png",
-    "Images/hangman2 (2).png",
-    "Images/hangman3 (3).png",
+    "Images/hangman-1.png",
+    "Images/hangman-2.png",
+    "Images/hangman-3.png",
     
-    "Images/hangman4 (4).png"
+    "Images/hangman-4.png"
 ];
 
 let currentHangman = 0;
