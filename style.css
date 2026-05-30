@@ -331,19 +331,19 @@ scrollbar-thumb{
 }
 
 .project-card:hover{
-    background-color: black;
-    color: white;
-    transform: translateY(-10px) scale(1.02);
+    background-color:  #F8F4ED;
+    color: black;
+    transform: translateY(-8px) scale(1.02);
 
 }
 
 .project-card:hover .btn {
-    border: 2px solid white;
+    border: 2px solid black;
     color: white;
 }
 
 .project-card:hover .btn:hover{
-    border: 2px solid white;
+    border: 2px solid black;
     background-color: white;
     color: black;
 }
@@ -358,5 +358,10 @@ scrollbar-thumb{
 .project-card img{
     width: 20vw;
 
-    border-radius: 15px;
+    /*border-radius: 15px; */
+
+    
+    border-radius: 12px;
+    border: 2px solid #d8d8d8;
+
 }
