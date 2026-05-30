@@ -97,9 +97,29 @@ li a:hover::before{
 
 section{
     min-height: 100vh;
-    padding: 8rem 12%;
+    padding: 80px 10%;
+    /*padding: 8rem 12%;*/
     width: 100%;
     position: relative;
+}
+
+.about::before{
+    content:"";
+
+    position:absolute;
+
+    width:300px;
+    height:300px;
+
+    background:
+    radial-gradient(
+        #d98cff,
+        transparent
+    );
+
+    filter:blur(120px);
+
+    z-index:-1;
 }
 
 .about{
@@ -224,7 +244,10 @@ section{
     align-items: center;
     justify-content: flex-start;
     cursor: pointer;
-    transition: 0.3s ease-in-out;
+     box-shadow:
+        0 8px 20px rgba(0,0,0,0.08);
+
+    transition: all 0.3s ease;
 
 }
 
@@ -232,6 +255,8 @@ section{
     transform: scale(1.03);
     background-color: black;
     color: white;
+    box-shadow:
+        0 15px 35px rgba(0,0,0,0.15);
 }
 
 .grid-card i{
@@ -308,6 +333,10 @@ scrollbar-thumb{
     font-weight: 500;
 }
 
+.projects{
+    background:#F8F5F0;
+}
+
 .project-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
@@ -326,7 +355,10 @@ scrollbar-thumb{
     border: 2px solid black;
     border-radius: 3rem;
     cursor: pointer;
-    transition: 0.3s ease-in-out;
+     box-shadow:
+        0 8px 20px rgba(0,0,0,0.08);
+
+    transition: all 0.3s ease;
     
 }
 
@@ -334,6 +366,8 @@ scrollbar-thumb{
     background-color:  #F8F4ED;
     color: black;
     transform: translateY(-8px) scale(1.02);
+    box-shadow:
+        0 15px 35px rgba(0,0,0,0.15);
 
 }
 
@@ -371,16 +405,6 @@ scrollbar-thumb{
     background: white;
     border-radius: 25px;
 
-    box-shadow:
-        0 8px 20px rgba(0,0,0,0.08);
-
-    transition: all 0.3s ease;
+   
 }
 
-.skill-card:hover,
-.project-card:hover {
-    transform: translateY(-10px);
-
-    box-shadow:
-        0 15px 35px rgba(0,0,0,0.15);
-}
