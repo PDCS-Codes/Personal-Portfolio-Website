@@ -58,7 +58,7 @@ Then just open `index.html` in your browser. No installs needed.
 ## Contact
 
 - **GitHub:** [github.com/PDCS-Codes](https://github.com/PDCS-Codes)
-- **LinkedIn:** *(add your LinkedIn URL here)*
+- **LinkedIn:** *https://www.linkedin.com/in/chanara-wickramasinghe-09404334b/*
 
 ---
 
