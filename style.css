@@ -392,11 +392,11 @@ scrollbar-thumb{
 .project-card img{
     width: 20vw;
 
-    /*border-radius: 15px; */
+    /*border-radius: 15px; 
 
     
     border-radius: 12px;
-    border: 2px solid #d8d8d8;
+    border: 2px solid #d8d8d8;  */
 
 }
 
@@ -408,3 +408,76 @@ scrollbar-thumb{
    
 }
 
+/* Responsive Design */
+/*Tablet*/
+@media (max-width:768px){
+    header{
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    nav ul{
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0;
+    }
+
+    .about .about-container{
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .about img{
+        width: 180vw;
+        margin:auto;
+    }
+
+    .skills-info{
+        grid-template-columns: repeat (2,1fr);
+    }
+
+    .project-grid{
+        grid-template-columns: 1fr;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+}
+
+/* Mobile */
+@media (max-width:480px){
+
+    body{font-size: 14px;}
+
+    .about{
+        padding: 30px 15px;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+  .skills-info{
+    grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-grid{
+        grid-template-columns: 1fr;
+    }
+
+    /*buttons*/
+    .btn-group,.btn{
+        width: 100%;
+        text-align: center;
+    }
+
+
+}
